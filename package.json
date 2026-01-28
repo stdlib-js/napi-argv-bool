@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/napi-argv-bool",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Convert a Node-API value to a boolean.",
   "license": "Apache-2.0",
   "author": {
@@ -42,7 +42,7 @@
     "@stdlib/assert-napi-is-type": "^0.2.2",
     "@stdlib/assert-napi-status-ok": "^0.2.2",
     "@stdlib/napi-argv": "^0.2.2",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.3"
   },
   "devDependencies": {
     "@stdlib/assert-is-browser": "^0.2.2",
@@ -77,11 +77,6 @@
     "macros",
     "bool"
   ],
-  "__stdlib__": {
-    "envs": {
-      "browser": false
-    }
-  },
   "funding": {
     "type": "opencollective",
     "url": "https://opencollective.com/stdlib"
